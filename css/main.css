@@ -1,0 +1,92 @@
+body {
+    font-family: "Arial", sans-serif;
+    font-size: 13px;
+}
+
+a, p {
+    color: #757575;
+    text-decoration: none;
+}
+
+nav {
+    float: right;
+    margin-right: 20px;
+}
+
+nav p, nav figure, nav button{
+    display: inline-block;
+    padding: 10px;
+    font-size: 13px;
+}
+
+nav button {
+    margin-left: 10px;
+    background-color: #4583ee;
+    border: 1px #4583ee solid;
+    border-radius: 3px;
+    padding: 7px 14px;
+}
+
+nav button a {
+    color: white;
+    font-weight: bold;
+}
+
+nav img {
+    height: 27px;
+    width: auto;
+    position: relative;
+    top: 10px;
+}
+
+form {
+    width: 50%;
+    position: relative;
+    top: 200px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+form img {
+    display: block;
+    height: 92px;
+    width: auto;
+    margin: 0 auto;
+}
+
+form input {
+    width: 600px;
+    height: 38px;
+    margin-top: 25px;
+    border: 1px #dfe1e5 solid;
+    border-radius: 18px;
+}
+
+#mic {
+    height: 28px;
+    width: auto;
+    position: relative;
+    bottom: 35px;
+    left: 275px;
+}
+
+form button {
+    display: inline-block;
+    margin: 0px 3px 10px 3px;
+    padding: 10px 13px;
+    font-size: 15px;
+    background-color: #f2f2f2;
+    border: 1px #f2f2f2 solid;
+    border-radius: 4px;
+}
+
+form p a {
+    color: #362bb2;
+    margin: 0 0.4em;
+}
+
+form p {
+    color: black;
+}
+
