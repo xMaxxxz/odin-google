@@ -105,9 +105,10 @@ form p {
     top: 89%;
     padding: 10px 0;
     padding-left: 30px;
-    width: 100%;
     border-top: 1px #e4e4e4 solid;
     background-color: #f2f2f2;
+    height: 7%;
+    width: 98.4%;
 }
 
 footer {
@@ -116,6 +117,7 @@ footer {
     width: 100%;
     background: #f2f2f2;
     border-top: 1px #e4e4e4 solid;
+    height: 5.9%;
 }
 
 .left p, .right p {
@@ -138,4 +140,19 @@ footer {
 
 a:hover {
     text-decoration: underline;
+}
+
+input:hover {
+    box-shadow: 4px 4px 1px 1px #e4e4e4;
+}
+
+button a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+button:hover {
+    border: 2px #e4e4e4 solid;
+    border-radius: 4px;
+    padding: 10px 13px;
 }
