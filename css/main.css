@@ -1,19 +1,24 @@
+/*Main Styling*/
+
 body {
     font-family: "Arial", sans-serif;
     font-size: 13px;
+    margin: 0;
 }
 
-a, p {
+a, p, #country {
     color: #757575;
     text-decoration: none;
 }
+
+/*Navbar Styling*/
 
 nav {
     float: right;
     margin-right: 20px;
 }
 
-nav p, nav figure, nav button{
+nav p, nav button{
     display: inline-block;
     padding: 10px;
     font-size: 13px;
@@ -38,6 +43,8 @@ nav img {
     position: relative;
     top: 10px;
 }
+
+/*Search Styling*/
 
 form {
     width: 50%;
@@ -90,3 +97,45 @@ form p {
     color: black;
 }
 
+/*Bottom Styling*/
+
+#country {
+    font-size: 15px;
+    position: absolute;
+    top: 89%;
+    padding: 10px 0;
+    padding-left: 30px;
+    width: 100%;
+    border-top: 1px #e4e4e4 solid;
+    background-color: #f2f2f2;
+}
+
+footer {
+    position: absolute;
+    top: 94%;
+    width: 100%;
+    background: #f2f2f2;
+    border-top: 1px #e4e4e4 solid;
+}
+
+.left p, .right p {
+    display: inline-block;
+    padding: 3px 15px;
+}
+
+.left {
+    position: absolute;
+    padding-left: 15px;
+}
+
+
+.right {
+    position: absolute;
+    left: 88%;
+}
+
+/*Hover Effects etc.*/
+
+a:hover {
+    text-decoration: underline;
+}
