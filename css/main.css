@@ -108,7 +108,7 @@ form p {
     border-top: 1px #e4e4e4 solid;
     background-color: #f2f2f2;
     height: 7%;
-    width: 98.4%;
+    width: 97%;
 }
 
 footer {
@@ -133,7 +133,7 @@ footer {
 
 .right {
     position: absolute;
-    left: 88%;
+    left: 87%;
 }
 
 /*Hover Effects etc.*/
@@ -142,16 +142,20 @@ a:hover {
     text-decoration: underline;
 }
 
+nav button a:hover {
+    text-decoration: none;
+}
+
 input:hover {
     box-shadow: 4px 4px 1px 1px #e4e4e4;
 }
 
-button a:hover {
+form button a:hover {
     text-decoration: none;
     color: black;
 }
 
-button:hover {
+form button:hover {
     border: 2px #e4e4e4 solid;
     border-radius: 4px;
     padding: 10px 13px;
